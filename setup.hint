@@ -1,0 +1,6 @@
+category: Dotnet
+requires: glib-sharp2 gnome-sharp2 gtk-sharp2 mono
+sdesc: "Mono extensible application framework"
+ldesc: "Mono.Addins is a generic framework for creating extensible 
+applications, and for creating libraries which extend those 
+applications."
