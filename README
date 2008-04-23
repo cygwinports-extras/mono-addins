@@ -4,19 +4,17 @@ Mono.Addins is a generic framework for creating extensible applications,
 and for creating libraries which extend those applications.
 
 Runtime requirements:
-  glib-sharp2-2.10.1-1
-  gnome-sharp2-2.16.0-1
-  gtk-sharp2-2.10.1-1
-  mono-1.2.4-1
+  glib-sharp2-2.12.1-1
+  gtk-sharp2-2.12.1-1
+  mono-1.9.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10.1-1
   binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  cygport-0.3.9-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   make-3.81-1
   pkg-config-0.21-1
@@ -31,48 +29,53 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack mono-addins-0.2-X-src.tar.bz2
+  unpack mono-addins-0.3.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./mono-addins-0.2-X.cygport all
+  cygport ./mono-addins-0.3.1-X.cygport all
 
 This will create:
-  /usr/src/mono-addins-0.2-X-src.tar.bz2
-  /usr/src/mono-addins-0.2-X.tar.bz2
+  /usr/src/mono-addins-0.3.1-X-src.tar.bz2
+  /usr/src/mono-addins-0.3.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/mautil
-  /usr/lib/mono-addins/Mono.Addins.Gui.dll
-  /usr/lib/mono-addins/Mono.Addins.Setup.dll
-  /usr/lib/mono-addins/Mono.Addins.dll
-  /usr/lib/mono-addins/Mono.Addins.dll.config
-  /usr/lib/mono-addins/mautil.exe
-  /usr/lib/mono/gac/Mono.Addins.Gui/0.2.0.0__0738eb9f132ed756/Mono.Addins.Gui.dll
-  /usr/lib/mono/gac/Mono.Addins.Gui/0.2.0.0__0738eb9f132ed756/Mono.Addins.Gui.dll.mdb
-  /usr/lib/mono/gac/Mono.Addins.Setup/0.2.0.0__0738eb9f132ed756/Mono.Addins.Setup.dll
-  /usr/lib/mono/gac/Mono.Addins.Setup/0.2.0.0__0738eb9f132ed756/Mono.Addins.Setup.dll.mdb
-  /usr/lib/mono/gac/Mono.Addins/0.2.0.0__0738eb9f132ed756/Mono.Addins.dll
-  /usr/lib/mono/gac/Mono.Addins/0.2.0.0__0738eb9f132ed756/Mono.Addins.dll.config
-  /usr/lib/mono/gac/Mono.Addins/0.2.0.0__0738eb9f132ed756/Mono.Addins.dll.mdb
+  /usr/lib/mono/gac/Mono.Addins.Gui/0.3.0.0__0738eb9f132ed756/Mono.Addins.Gui.dll
+  /usr/lib/mono/gac/Mono.Addins.Gui/0.3.0.0__0738eb9f132ed756/Mono.Addins.Gui.dll.mdb
+  /usr/lib/mono/gac/Mono.Addins.Setup/0.3.0.0__0738eb9f132ed756/Mono.Addins.Setup.dll
+  /usr/lib/mono/gac/Mono.Addins.Setup/0.3.0.0__0738eb9f132ed756/Mono.Addins.Setup.dll.mdb
+  /usr/lib/mono/gac/Mono.Addins/0.3.0.0__0738eb9f132ed756/Mono.Addins.dll
+  /usr/lib/mono/gac/Mono.Addins/0.3.0.0__0738eb9f132ed756/Mono.Addins.dll.config
+  /usr/lib/mono/gac/Mono.Addins/0.3.0.0__0738eb9f132ed756/Mono.Addins.dll.mdb
+  /usr/lib/mono/gac/policy.0.2.Mono.Addins.Gui/0.0.0.0__0738eb9f132ed756/policy.0.2.Mono.Addins.Gui.dll
+  /usr/lib/mono/gac/policy.0.2.Mono.Addins.Gui/0.0.0.0__0738eb9f132ed756/policy.0.2.config
+  /usr/lib/mono/gac/policy.0.2.Mono.Addins.Setup/0.0.0.0__0738eb9f132ed756/policy.0.2.Mono.Addins.Setup.dll
+  /usr/lib/mono/gac/policy.0.2.Mono.Addins.Setup/0.0.0.0__0738eb9f132ed756/policy.0.2.config
+  /usr/lib/mono/gac/policy.0.2.Mono.Addins/0.0.0.0__0738eb9f132ed756/policy.0.2.Mono.Addins.dll
+  /usr/lib/mono/gac/policy.0.2.Mono.Addins/0.0.0.0__0738eb9f132ed756/policy.0.2.config
   /usr/lib/mono/mono-addins/Mono.Addins.Gui.dll
   /usr/lib/mono/mono-addins/Mono.Addins.Setup.dll
   /usr/lib/mono/mono-addins/Mono.Addins.dll
+  /usr/lib/mono/mono-addins/mautil.exe
   /usr/lib/pkgconfig/mono-addins-gui.pc
   /usr/lib/pkgconfig/mono-addins-setup.pc
   /usr/lib/pkgconfig/mono-addins.pc
-  /usr/share/doc/Cygwin/mono-addins-0.2.README
-  /usr/share/doc/mono-addins-0.2/AUTHORS
-  /usr/share/doc/mono-addins-0.2/ChangeLog
-  /usr/share/doc/mono-addins-0.2/NEWS
-  /usr/share/doc/mono-addins-0.2/README
+  /usr/share/doc/mono-addins-0.3.1/AUTHORS
+  /usr/share/doc/mono-addins-0.3.1/COPYING
+  /usr/share/doc/mono-addins-0.3.1/ChangeLog
+  /usr/share/doc/mono-addins-0.3.1/NEWS
+  /usr/share/doc/mono-addins-0.3.1/README
 
 ------------------
 
 Port Notes:
+
+----- version 0.3.1-1 -----
+Version bump.
 
 ----- version 0.2-1 -----
 Version bump.
