@@ -45,12 +45,9 @@ Files included in the binary package:
 
   /usr/bin/mautil
   /usr/lib/mono/gac/Mono.Addins.Gui/0.3.0.0__0738eb9f132ed756/Mono.Addins.Gui.dll
-  /usr/lib/mono/gac/Mono.Addins.Gui/0.3.0.0__0738eb9f132ed756/Mono.Addins.Gui.dll.mdb
   /usr/lib/mono/gac/Mono.Addins.Setup/0.3.0.0__0738eb9f132ed756/Mono.Addins.Setup.dll
-  /usr/lib/mono/gac/Mono.Addins.Setup/0.3.0.0__0738eb9f132ed756/Mono.Addins.Setup.dll.mdb
   /usr/lib/mono/gac/Mono.Addins/0.3.0.0__0738eb9f132ed756/Mono.Addins.dll
   /usr/lib/mono/gac/Mono.Addins/0.3.0.0__0738eb9f132ed756/Mono.Addins.dll.config
-  /usr/lib/mono/gac/Mono.Addins/0.3.0.0__0738eb9f132ed756/Mono.Addins.dll.mdb
   /usr/lib/mono/gac/policy.0.2.Mono.Addins.Gui/0.0.0.0__0738eb9f132ed756/policy.0.2.Mono.Addins.Gui.dll
   /usr/lib/mono/gac/policy.0.2.Mono.Addins.Gui/0.0.0.0__0738eb9f132ed756/policy.0.2.config
   /usr/lib/mono/gac/policy.0.2.Mono.Addins.Setup/0.0.0.0__0738eb9f132ed756/policy.0.2.Mono.Addins.Setup.dll
