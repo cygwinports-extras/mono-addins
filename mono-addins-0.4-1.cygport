@@ -1,0 +1,7 @@
+inherit mono
+
+MAKEOPTS+=" -j1"
+
+PKG_NAMES="${PN} mono-Mono-Addins0.2"
+mono_addins_CONTENTS="--exclude=gac usr/"
+mono_Mono_Addins0_2_CONTENTS="usr/lib/mono/gac/"

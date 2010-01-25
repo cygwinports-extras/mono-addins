@@ -1,0 +1,7 @@
+category: DotNET
+requires: mono mono-glib-sharp2.0 mono-gtk-sharp2.0 mono-pango-sharp2.0
+external-source: mono-addins
+sdesc: "Mono extensible application framework"
+ldesc: "Mono.Addins is a generic framework for creating extensible 
+applications, and for creating libraries which extend those 
+applications."
